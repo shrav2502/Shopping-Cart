@@ -15,7 +15,7 @@ public class ItemDao {
 	PreparedStatement pstmt;
 	ResultSet rs;
 	Connection con;
-	public List<Item> retrieveAllProduct(){
+	public List<Item> retrieveAllItem(){
 		List<Item> listofItem=new ArrayList<Item>();
 		try {
 			con=DbConnection.getDbConnection();
